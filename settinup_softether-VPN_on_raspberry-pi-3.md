@@ -56,21 +56,23 @@ ruby: pi @ raspberrypi:
 ~ $ sudo raspi-config
 `````
 
-! [Terminal --pi @ raspberrypi: ~ _157.png](https://qiita-image-store.s3.amazonaws.com/0/225786/2d0b6a8d-85e9-3c7c-e0a8-3f1446f042ac.png)
+![Terminal--pi@raspberrypi:~_157.png](https://qiita-image-store.s3.amazonaws.com/0/225786/2d0b6a8d-85e9-3c7c-e0a8-3f1446f042ac.png)
 
 
-! [Terminal --pi @ raspberrypi: ~ _153.png](https://qiita-image-store.s3.amazonaws.com/0/225786/b7d1c150-f43e-4ad5-68e6-8875f3c16dcd.png)
+![Terminal--pi@raspberrypi:~_153.png](https://qiita-image-store.s3.amazonaws.com/0/225786/b7d1c150-f43e-4ad5-68e6-8875f3c16dcd.png)
 
-! [Terminal --pi @ raspberrypi: ~ _154.png](https://qiita-image-store.s3.amazonaws.com/0/225786/b901ee30-8a5d-7580-6409-44c86703b997.png)
+![Terminal--pi@raspberrypi:~_154.png](https://qiita-image-store.s3.amazonaws.com/0/225786/b901ee30-8a5d-7580-6409-44c86703b997.png)
 
-! [Terminal --pi @ raspberrypi: ~ _155.png](https://qiita-image-store.s3.amazonaws.com/0/225786/a5e0c7e0-aeb9-246d-c325-0851a8c3b65b.png)
+![Terminal--pi@raspberrypi:~_155.png](https://qiita-image-store.s3.amazonaws.com/0/225786/a5e0c7e0-aeb9-246d-c325-0851a8c3b65b.png)
 
-! [Terminal --pi @ raspberrypi: ~ _156.png](https://qiita-image-store.s3.amazonaws.com/0/225786/e5a8ce03-c275-b4d0-806e-b3edea8324d8.png)
+![Terminal--pi@raspberrypi:~_156.png](https://qiita-image-store.s3.amazonaws.com/0/225786/e5a8ce03-c275-b4d0-806e-b3edea8324d8.png)
 
 If you do not want to connect wirelessly, restart RASPBIAN once you
 have completed the above settings.
 
-`` `ruby: pi @ raspberrypi: ~ $ sudo reboot `` ```
+```ruby: pi @ raspberrypi: 
+~ $ sudo reboot 
+`````
 
 After rebooting and RASPBIAN booting (I can't check it without a
 monitor, but somehow when it boots up),
@@ -81,8 +83,8 @@ $ sudo ssh pi @ 192.168.0.4
 
 For example, if you try to connect to Raspberry Pi and it is connected
 successfully, use the following command to download `build-essential`
-for Softether`Make` and [Local Bridge](https://ja.softether.org). /4-docs/1-manual/3/3.6#3.6.9_tap_.E3.83.87.E3.83.90.E3.82.A4.E3.82.B9.E3.81.AE.E4.BD.BF.E7
-Install `bridge-utils` to create .94.A8).
+for Softether `Make` and [Local Bridge](https://ja.softether.org). /4-docs/1-manual/3/3.6#3.6.9_tap_.E3.83.87.E3.83.90.E3.82.A4.E3.82.B9.E3.81.AE.E4.BD.BF.E7
+Install`bridge-utils` to create .94.A8).
 
 ```ruby: pi @ raspberrypi: ~
 $ sudo apt-get install build-essential $
