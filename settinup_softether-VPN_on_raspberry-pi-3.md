@@ -6,6 +6,8 @@ slide: false
 ---
 https://qiita.com/dauuricus/items/ea0259d48a63f4d45b39
 
+[!img](Screenshot_20210104-211010.png)
+
 ## Please note that this article is a translation of the Japanese tutorial written in 2018.
 Cf.
 https://github.com/nekotohondana/qiita_articles/blob/main/settingup_softether-VPN_on_raspberrypi-3_JA.md
