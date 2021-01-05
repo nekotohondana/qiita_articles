@@ -35,7 +35,7 @@ it.  Connect the Raspberry Pi with a wired LAN, and click [Search for
 the Raspberry Pi's IP address from other network-connected devices. ](Https://qiita.com/dauuricus/items/8453e70b54ab64f22f2d#fing) Connect
 with ssh from your PC. However, if this is possible, if ssh is enabled
 by default, ssh connection is possible, but if not, it is necessary to
-write to the SD card to enable ssh in advance. There is.
+write to the SD card to enable ssh in advance. 
 
 ```ruby: PC terminal
 $ sudo ssh pi@192.168.0.4
