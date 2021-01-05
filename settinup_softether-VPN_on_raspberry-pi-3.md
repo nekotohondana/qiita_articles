@@ -1,4 +1,14 @@
 ## Please note that this article is a translation of the Japanese tutorial written in 2018.
+Cf.
+https://github.com/nekotohondana/qiita_articles/blob/main/settingup_softether-VPN_on_raspberrypi-3_JA.md
+
+---
+title: Raspberry PiにSoftether VPNサーバーをセットする
+tags: RaspberryPi
+author: dauuricus
+slide: false
+---
+
 2018.1.24.
 ##### Set RASPBIAN STRETCH LITE OS on Raspberry Pi and
 
@@ -242,4 +252,3 @@ I am looking for [Promiscuous usb wifi card](https://ja.softether.org/4-docs/3-k
 Raspberry Pi.
 
 
-## Cf.https://github.com/nekotohondana/qiita_articles/blob/main/settingup_softether-VPN_on_raspberrypi-3_JA.md
