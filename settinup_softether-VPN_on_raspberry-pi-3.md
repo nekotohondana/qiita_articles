@@ -1,4 +1,4 @@
-
+## Please note that this article is a translation of the Japanese tutorial written in 2018.
 2018.1.24.
 ##### Set RASPBIAN STRETCH LITE OS on Raspberry Pi and
 
@@ -240,3 +240,6 @@ At this point, RASPBIAN can start the Softether VPN server.
 
 I am looking for [Promiscuous usb wifi card](https://ja.softether.org/4-docs/3-kb/VPNFAQ003) that can be used with
 Raspberry Pi.
+
+
+Cf.
