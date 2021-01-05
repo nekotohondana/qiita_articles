@@ -46,7 +46,7 @@ Raspberry Pi in a timely manner.  When you enter it, you will be asked
 for the root account password because of sudo.
 
 After that, you will be asked for the password for the Raspberry Pi pi
-user. So this is by default the user `pi` password` raspberry`.
+user. So this is by default the user `pi` password `raspberry`.
 
 If the password passes, you will be prompted
 
