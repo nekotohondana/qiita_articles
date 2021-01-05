@@ -44,7 +44,7 @@ If the password passes, you will be prompted
 `````
 
 Will be.
-###Japanese font for terminal Install Japanese fonts.
+### Japanese font for terminal Install Japanese fonts.
 However, this is because when the locale is set to Japanese, the characters are garbled and it is very difficult to check various processes, and it is not necessary unless you are particular about Japanese.
 
 ```
@@ -82,8 +82,7 @@ $ sudo ssh pi @ 192.168.0.4
 `````
 
 For example, if you try to connect to Raspberry Pi and it is connected
-successfully, use the following command to download `build-essential`
-for Softether `Make` and install `bridge-utils` for creating [Local Bridge].
+successfully, use the following command to download `build-essential` for Softether `Make` and install `bridge-utils` for creating [Local Bridge].
 
 ```ruby: pi @ raspberrypi: ~
 $ sudo apt-get install build-essential 
