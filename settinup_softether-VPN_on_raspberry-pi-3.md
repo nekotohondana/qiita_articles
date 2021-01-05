@@ -43,7 +43,8 @@ If the password passes, you will be prompted
 ~ $
 `````
 
-### Japanese font for terminal Install Japanese fonts.
+### Japanese font for terminal 
+Install Japanese fonts.
 However, this is because when the locale is set to Japanese, the characters are garbled and it is very difficult to check various processes, and it is not necessary unless you are particular about Japanese.
 
 ```
