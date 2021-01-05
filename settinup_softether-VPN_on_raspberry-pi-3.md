@@ -174,7 +174,7 @@ Copy the script below and paste it into `vpnserver`.
 DAEMON=/usr/local/vpnserver/vpnserver
 LOCK=/var/lock/vpnserver
 
-# tun/tap モジュールのロード
+# Load tun/tap
 sudo modprobe tun
 
 . /lib/lsb/init-functions
@@ -189,7 +189,7 @@ touch $LOCK
 log_end_msg 0
 sleep 3
 
-# SoftEther VPNで追加した仮想tapデバイス名を調べる
+# Check the virtual tap device name added by SoftEther VPN
 tap=`/sbin/ifconfig -a| awk '$1 ~ /^tap/ {print $1}'`
 /sbin/brctl addif br0 $tap
 ;;
@@ -208,7 +208,7 @@ sleep 2
 
 $DAEMON start
 sleep 5
-# SoftEther VPNで追加した仮想tapデバイス名を調べる
+# Check the virtual tap device name added by SoftEther VPN
 tap=`/sbin/ifconfig -a| awk '$1 ~ /^tap/ {print $1}'`
 /sbin/brctl addif br0 $tap
 ;;
