@@ -107,7 +107,7 @@ iface default inet dhcp
 ```
 nanoで以上をコピーしてペースト。そして、`interfaces`を上書き保存する。
 
-###Softetherダウンロード
+### Softetherダウンロード
 RASPBIANにsshで接続しているＰＣのブラウザで[SoftEther VPNダウンロードページ](http://ja.softether.org/5-download)からたどって、
 [OS: Linux, CPU: ARM EABI (32bit)](http://www.softether-download.com/ja.aspx?product=softether)のビルド版のダウンロードアドレスをコピーする。ターミナル内にペーストするのは、ssh接続しているRASPBIANのコマンドプロンプトで`wget`コマンドの後に`Ctrl`+`Shift`+`v`でペーストされる。
 下記では、リリース日: 2017-12-21のSoftEther VPN Server (Ver 4.24, Build 9652, beta)をダウンロードし、Makeしている。
