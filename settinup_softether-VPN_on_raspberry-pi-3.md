@@ -36,7 +36,7 @@ by default, ssh connection is possible, but if not, it is necessary to
 write to the SD card to enable ssh in advance. There is.
 
 ```ruby: PC terminal
-$ sudo ssh pi @ 192.168.0.4
+$ sudo ssh pi@192.168.0.4
 ```
 
 Please rewrite the local address in the LAN to the IP assigned to the
@@ -49,8 +49,7 @@ user. So this is by default the user `pi` password` raspberry`.
 If the password passes, you will be prompted
 
 ```ruby: PC terminal pi
-@ raspberrypi:
-~ $
+@ raspberrypi:~ $
 `````
 
 ### Japanese font for terminal 
