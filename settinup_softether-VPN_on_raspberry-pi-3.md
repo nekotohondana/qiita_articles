@@ -1,7 +1,3 @@
-## Please note that this article is a translation of the Japanese tutorial written in 2018.
-Cf.
-https://github.com/nekotohondana/qiita_articles/blob/main/settingup_softether-VPN_on_raspberrypi-3_JA.md
-
 ---
 title: Raspberry PiにSoftether VPNサーバーをセットする
 tags: RaspberryPi
@@ -9,11 +5,14 @@ author: dauuricus
 slide: false
 ---
 
-2018.1.24.
-##### Set RASPBIAN STRETCH LITE OS on Raspberry Pi and
+## Please note that this article is a translation of the Japanese tutorial written in 2018.
+Cf.
+https://github.com/nekotohondana/qiita_articles/blob/main/settingup_softether-VPN_on_raspberrypi-3_JA.md
 
-leave a memo without explanation briefly until setting Softether VPN
-server.
+
+
+2018.1.24.
+##### Set RASPBIAN STRETCH LITE OS on Raspberry Pi and leave a memo without explanation briefly until setting Softether VPN server.
 
 If you copy and paste all the commands into the terminal in order, it
 would be nice if you could write that everything would be completed in
