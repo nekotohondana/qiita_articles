@@ -4,6 +4,7 @@ tags: RaspberryPi
 author: dauuricus
 slide: false
 ---
+https://qiita.com/dauuricus/items/ea0259d48a63f4d45b39
 
 ## Please note that this article is a translation of the Japanese tutorial written in 2018.
 Cf.
