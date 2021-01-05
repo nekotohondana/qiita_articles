@@ -83,17 +83,16 @@ $ sudo ssh pi @ 192.168.0.4
 
 For example, if you try to connect to Raspberry Pi and it is connected
 successfully, use the following command to download `build-essential`
-for Softether `Make` and [Local Bridge](https://ja.softether.org). /4-docs/1-manual/3/3.6#3.6.9_tap_.E3.83.87.E3.83.90.E3.82.A4.E3.82.B9.E3.81.AE.E4.BD.BF.E7
-Install`bridge-utils` to create .94.A8).
+for Softether `Make` and install `bridge-utils` for creating [Local Bridge].
 
 ```ruby: pi @ raspberrypi: ~
-$ sudo apt-get install build-essential $
-sudo apt-get install bridge-utils
+$ sudo apt-get install build-essential 
+$ sudo apt-get install bridge-utils
 `````
 
-### interfaces edit Edit `/ etc / network / interfaces`. Use Nano.
-However, this is [Local Bridge Connection](https://ja.softether.org/4-docs/1-manual/3/3.6#3.6.9_tap_.E3.83.87.E3.83.90.E3.82.A4. E3.82.B9.E3.81.AE.E4.BD.BF.E7.94.A8)
-is assumed. It seems that it can function as a VPN without a local
+### interfaces edit 
+Edit `/ etc / network / interfaces`. Use Nano.
+However, this is [Local Bridge Connection] is assumed. It seems that it can function as a VPN without a local
 bridge.
 
 ```ruby:pi@raspberrypi:~
@@ -125,21 +124,16 @@ Copy and paste the above with nano. Then, overwrite and save
 `interfaces`.
 
 ### Softether Download Follow from [SoftEther VPN download page](http://ja.softether.org/5-download) with the browser of the PC
-connected to RASPBIAN by ssh, Copy the download address of the build
-version of [OS: Linux, CPU: ARM EABI (32bit)](http://www.softether-download.com/ja.aspx?product=softether). To
-paste in the terminal, press `Ctrl` +` Shift` + `v` after the` wget`
-command at the command prompt of RASPBIAN connected by ssh.  Below,
-the release date: 2017-12-21 SoftEther VPN Server (Ver 4.24, Build
-9652, beta) is downloaded and made.
+connected to RASPBIAN by ssh, Copy the download address of the build version of [OS: Linux, CPU: ARM EABI (32bit)](http://www.softether-download.com/ja.aspx?product=softether). To
+paste in the terminal, press `Ctrl` +` Shift` + `v` after the` wget` command at the command prompt of RASPBIAN connected by ssh.  Below,
+the release date: 2017-12-21 SoftEther VPN Server (Ver 4.24, Build 9652, beta) is downloaded and made.
 
 ```ruby: pi@xxx.xxx.xxx.xxx
-$ wget
-http://jp.softether-download.com/files/softether/v4.24-9652-beta-2017.12.21-tree/Linux/SoftEther_VPN_Server/32bit_-_ARM_EABI/softether-vpnserver-v4.24-9652-
-beta-2017.12.21-linux-arm_eabi-32bit.tar.gz
+$ wget http://jp.softether-download.com/files/softether/v4.24-9652-beta-2017.12.21-tree/Linux/SoftEther_VPN_Server/32bit_-_ARM_EABI/softether-vpnserver-v4.24-9652-beta-2017.12.21-linux-arm_eabi-32bit.tar.gz
 `````
 
-### make Unzip the downloaded Softether file with `tar`, move the
-unzipped` vpnserver` to `/ usr / local /`, and `make`.
+### make 
+Unzip the downloaded Softether file with `tar`, move the unzipped `vpnserver` to `/ usr / local /`, and `make`.
 
 ```ruby:pi@raspberrypi
 $ tar -zxvf softether-vpnserver-v4.24-9652-beta-2017.12.21-linux-arm_eabi-32bit.tar.gz
