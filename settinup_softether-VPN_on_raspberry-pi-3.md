@@ -124,7 +124,7 @@ Copy and paste the above with nano. Then, overwrite and save
 
 ### Download Softether VPN source code
 Download Follow from [SoftEther VPN download page](https://www.softether.org/5-download) with the browser of the PC
-connected to RASPBIAN by ssh, Copy the download address of the build version of [OS: Linux, CPU: ARM EABI (32bit)](http://www.softether-download.com/ja.aspx?product=softether).
+connected to RASPBIAN by ssh, Copy the download address of the build version of [OS: Linux, CPU: ARM EABI (32bit)](http://www.softether-download.com/en.aspx).
 To paste in the terminal, press `Ctrl` + `Shift` + `v` after the `wget` command at the command prompt of RASPBIAN connected by ssh.  Below,
 the release date: 2017-12-21 SoftEther VPN Server (Ver 4.24, Build 9652, beta) is downloaded and made.
 
