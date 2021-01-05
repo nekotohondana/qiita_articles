@@ -242,4 +242,4 @@ I am looking for [Promiscuous usb wifi card](https://ja.softether.org/4-docs/3-k
 Raspberry Pi.
 
 
-Cf.
+## Cf.https://github.com/nekotohondana/qiita_articles/blob/main/settingup_softether-VPN_on_raspberrypi-3_JA.md
