@@ -77,7 +77,7 @@ $ sudo apt-get install build-essential
 $ sudo apt-get install bridge-utils
 ```
 
-###interfaces編集
+### interfaces編集
 `/etc/network/interfaces`を編集する。Nanoを使う。
 ただし、これは[ローカルブリッジ接続](https://ja.softether.org/4-docs/1-manual/3/3.6#3.6.9_tap_.E3.83.87.E3.83.90.E3.82.A4.E3.82.B9.E3.81.AE.E4.BD.BF.E7.94.A8)を前提としている。ローカルブリッジしなくても、ＶＰＮとして機能させることはできるようだが。
 
@@ -116,7 +116,7 @@ RASPBIANにsshで接続しているＰＣのブラウザで[SoftEther VPNダウ�
 $ wget http://jp.softether-download.com/files/softether/v4.24-9652-beta-2017.12.21-tree/Linux/SoftEther_VPN_Server/32bit_-_ARM_EABI/softether-vpnserver-v4.24-9652-beta-2017.12.21-linux-arm_eabi-32bit.tar.gz
 ```
 
-###make
+### make
 ダウンロードしたSoftetherのファイルを`tar`で解凍し、解凍してできた`vpnserver`を、`/usr/local/`へ移動し、`make`する。
 
 ```ruby:pi@raspberrypi
@@ -139,7 +139,7 @@ chmod 700 vpnserver
 $ cd /etc/init.d/
 $ sudo nano ./vpnserver
 ```
-###起動スクリプト
+### 起動スクリプト
 以下のスクリプトをコピーして、`vpnserver`へペースト。
 
 ```
