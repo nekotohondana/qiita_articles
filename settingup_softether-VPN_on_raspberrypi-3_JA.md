@@ -5,6 +5,8 @@ author: dauuricus
 slide: false
 ---
 
+![screenshot img](Screenshot_20210104-211010.png)
+
 2018.1.24.
 ##### Raspberry PiにRASPBIAN STRETCH LITE OSをセットし、Softether VPNサーバーをセットするまでを簡潔に説明無しでメモとして残す。
 
